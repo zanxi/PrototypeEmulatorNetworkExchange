@@ -1,10 +1,11 @@
 #pragma once
 
 #define _CRT_SECURE_NO_WARNINGS
+#define __cpp_impl_coroutine
 
 #include <boost/scoped_ptr.hpp>
-//#include <boost/thread/shared_mutex.hpp>
-//#include <boost/thread/locks.hpp>
+#include <boost/thread/shared_mutex.hpp>
+#include <boost/thread/locks.hpp>
 
 #include <future>
 #include <cassert>
@@ -19,6 +20,11 @@
 #include <memory>
 #include <mutex>
 #include <thread>
+//#include <coroutine>
+//#include <coroutine>
+//#include <experimental/coroutine>
+//#include <experimental/resumable>
+
 #include <map>
 #include <queue>
 #include <list>

@@ -1,31 +1,6 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (ConsoleApplicationCppAsync.vcxproj).  Это может привести к ошибкам очистки и перестроения.
   ConsoleApplicationCppAsync.cpp
-C:\_2022___\_Rabota__HH__Source__My\ConsoleApplicationCppAsync\ConsoleApplicationCppAsync\Threaf_f.h(26,9): warning C4101: x: неиспользованная локальная переменная
-C:\_2022___\_Rabota__HH__Source__My\ConsoleApplicationCppAsync\ConsoleApplicationCppAsync\ConsoleApplicationCppAsync.cpp(45,24): warning C4244: аргумент: преобразование "const double" в "const int", возможна потеря данных
-C:\_2022___\_Rabota__HH__Source__My\ConsoleApplicationCppAsync\ConsoleApplicationCppAsync\ConsoleApplicationCppAsync.cpp(48,14): warning C4244: аргумент: преобразование "const double" в "int", возможна потеря данных
-C:\_2022___\_Rabota__HH__Source__My\ConsoleApplicationCppAsync\ConsoleApplicationCppAsync\ConsoleApplicationCppAsync.cpp(48,24): warning C4244: =: преобразование "const double" в "int", возможна потеря данных
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\utility(190,16): warning C4244: инициализация: преобразование "const double" в "_Ty1", возможна потеря данных
-          with
-          [
-              _Ty1=int
-          ]
-C:\_2022___\_Rabota__HH__Source__My\ConsoleApplicationCppAsync\ConsoleApplicationCppAsync\ConsoleApplicationCppAsync.cpp(45): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,int>::pair<const double&,const double&,0>(_Other1,_Other2) noexcept"
-          with
-          [
-              _Other1=const double &,
-              _Other2=const double &
-          ]
-C:\_2022___\_Rabota__HH__Source__My\ConsoleApplicationCppAsync\ConsoleApplicationCppAsync\ConsoleApplicationCppAsync.cpp(45): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,int>::pair<const double&,const double&,0>(_Other1,_Other2) noexcept"
-          with
-          [
-              _Other1=const double &,
-              _Other2=const double &
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\utility(190,54): warning C4244: инициализация: преобразование "const double" в "_Ty2", возможна потеря данных
-          with
-          [
-              _Ty2=int
-          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\experimental\coroutine(37,1): fatal error C1189: #error:  The <experimental/coroutine> and <experimental/resumable> headers are only supported with /await and implement pre-C++20 coroutine support. Use <coroutine> for standard C++20 coroutines.
   OnePhoto.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\experimental\coroutine(37,1): fatal error C1189: #error:  The <experimental/coroutine> and <experimental/resumable> headers are only supported with /await and implement pre-C++20 coroutine support. Use <coroutine> for standard C++20 coroutines.
   Создание кода...
-  ConsoleApplicationCppAsync.vcxproj -> C:\_2022___\_Rabota__HH__Source__My\ConsoleApplicationCppAsync\x64\Debug\PrototypeEmulatorAsyncObmennik.exe

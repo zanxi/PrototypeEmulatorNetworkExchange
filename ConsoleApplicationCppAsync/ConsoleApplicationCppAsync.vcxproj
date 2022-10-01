@@ -118,6 +118,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalOptions>/await</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConcurrentMap.h" />
+    <ClInclude Include="CycleBuffer.h" />
     <ClInclude Include="DataStore.h" />
     <ClInclude Include="Def.h" />
     <ClInclude Include="Device.h" />
@@ -167,6 +170,7 @@
     <ClInclude Include="SubSystem.h" />
     <ClInclude Include="tablemodbus.h" />
     <ClInclude Include="Task1rw.h" />
+    <ClInclude Include="Task2co.h" />
     <ClInclude Include="ThreadClass.h" />
     <ClInclude Include="Threaf_f.h" />
     <ClInclude Include="Variable.h" />
