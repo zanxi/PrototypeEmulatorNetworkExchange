@@ -151,6 +151,7 @@
     <ClInclude Include="CycleBuffer.h" />
     <ClInclude Include="DataStore.h" />
     <ClInclude Include="Def.h" />
+    <ClInclude Include="Deijkstra.h" />
     <ClInclude Include="Device.h" />
     <ClInclude Include="Driver.h" />
     <ClInclude Include="initparameters.h" />
@@ -158,6 +159,7 @@
     <ClInclude Include="libH.h" />
     <ClInclude Include="logger.h" />
     <ClInclude Include="MModbus.h" />
+    <ClInclude Include="NOD.h" />
     <ClInclude Include="OnePhoto.h" />
     <ClInclude Include="PatternThreadsReaderWriter.h" />
     <ClInclude Include="Project.h" />

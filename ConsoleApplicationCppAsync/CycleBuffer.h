@@ -150,6 +150,16 @@ DECLARE_HW_USART(Usart1Regs, UDR1, UCSR1A, UCSR1B, UCSR1C, UBRR1L, UBRR1H)
 // TxSize - размер буфера передачи
 // RxSize - размер буфера приёма
 // Regs тип в котором определены классы обёртки регистров USART
+
+struct Usart0Regs
+{
+    static struct Ucsrb
+    {
+        void Set(int TxSize) {}
+    };
+
+};
+
 template<int TxSize, int RxSize, class Regs = Usart0Regs>
 class Usart
 {
@@ -291,7 +301,7 @@ typedef Usart<16, 16> usart;
 //    usart::RxHandler();
 //}
 
-int ex2()
+void ex2()
 {
     usart::Init<115200>();
     uint8_t c;
